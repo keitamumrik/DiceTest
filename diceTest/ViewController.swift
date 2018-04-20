@@ -17,6 +17,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func tumblingDice(_ sender: Any) {
+        //rundomな値を生成
+        let rundomNum = arc4random_uniform(6)
+        let diceNum = rundomNum + 1
+        //diceViewに代入
+        diceView.text = String(diceNum)
     }
 
     override func didReceiveMemoryWarning() {

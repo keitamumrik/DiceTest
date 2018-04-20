@@ -25,10 +25,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6my-VL-9Va">
-                                <rect key="frame" x="87" y="344" width="197" height="66"/>
+                                <rect key="frame" x="65" y="344" width="245" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <state key="normal" title="サイをふる"/>
+                                <state key="normal" title="サイコロをふる"/>
                                 <connections>
                                     <action selector="tumblingDice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fi4-Rz-5cZ"/>
                                 </connections>
