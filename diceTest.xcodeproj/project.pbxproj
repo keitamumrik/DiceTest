@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90B0A3C21213FBC00E69919 /* sai1.gif in Resources */ = {isa = PBXBuildFile; fileRef = F90B0A3621213FBB00E69919 /* sai1.gif */; };
+		F90B0A3D21213FBC00E69919 /* sai4.gif in Resources */ = {isa = PBXBuildFile; fileRef = F90B0A3721213FBB00E69919 /* sai4.gif */; };
+		F90B0A3E21213FBC00E69919 /* sai2.gif in Resources */ = {isa = PBXBuildFile; fileRef = F90B0A3821213FBB00E69919 /* sai2.gif */; };
+		F90B0A3F21213FBC00E69919 /* sai6.gif in Resources */ = {isa = PBXBuildFile; fileRef = F90B0A3921213FBC00E69919 /* sai6.gif */; };
+		F90B0A4021213FBC00E69919 /* sai3.gif in Resources */ = {isa = PBXBuildFile; fileRef = F90B0A3A21213FBC00E69919 /* sai3.gif */; };
+		F90B0A4121213FBC00E69919 /* sai5.gif in Resources */ = {isa = PBXBuildFile; fileRef = F90B0A3B21213FBC00E69919 /* sai5.gif */; };
 		F961C9FC208A3F6900BD9A6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F961C9FB208A3F6900BD9A6F /* AppDelegate.swift */; };
 		F961C9FE208A3F6900BD9A6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F961C9FD208A3F6900BD9A6F /* ViewController.swift */; };
 		F961CA01208A3F6900BD9A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F961C9FF208A3F6900BD9A6F /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F90B0A3621213FBB00E69919 /* sai1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = sai1.gif; path = ../../../../Desktop/iamge_dice/sai1.gif; sourceTree = "<group>"; };
+		F90B0A3721213FBB00E69919 /* sai4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = sai4.gif; path = ../../../../Desktop/iamge_dice/sai4.gif; sourceTree = "<group>"; };
+		F90B0A3821213FBB00E69919 /* sai2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = sai2.gif; path = ../../../../Desktop/iamge_dice/sai2.gif; sourceTree = "<group>"; };
+		F90B0A3921213FBC00E69919 /* sai6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = sai6.gif; path = ../../../../Desktop/iamge_dice/sai6.gif; sourceTree = "<group>"; };
+		F90B0A3A21213FBC00E69919 /* sai3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = sai3.gif; path = ../../../../Desktop/iamge_dice/sai3.gif; sourceTree = "<group>"; };
+		F90B0A3B21213FBC00E69919 /* sai5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = sai5.gif; path = ../../../../Desktop/iamge_dice/sai5.gif; sourceTree = "<group>"; };
 		F961C9F8208A3F6900BD9A6F /* diceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F961C9FB208A3F6900BD9A6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F961C9FD208A3F6900BD9A6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +66,12 @@
 		F961C9FA208A3F6900BD9A6F /* diceTest */ = {
 			isa = PBXGroup;
 			children = (
+				F90B0A3621213FBB00E69919 /* sai1.gif */,
+				F90B0A3821213FBB00E69919 /* sai2.gif */,
+				F90B0A3A21213FBC00E69919 /* sai3.gif */,
+				F90B0A3721213FBB00E69919 /* sai4.gif */,
+				F90B0A3B21213FBC00E69919 /* sai5.gif */,
+				F90B0A3921213FBC00E69919 /* sai6.gif */,
 				F961C9FB208A3F6900BD9A6F /* AppDelegate.swift */,
 				F961C9FD208A3F6900BD9A6F /* ViewController.swift */,
 				F961C9FF208A3F6900BD9A6F /* Main.storyboard */,
@@ -123,7 +141,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F961CA06208A3F6F00BD9A6F /* LaunchScreen.storyboard in Resources */,
+				F90B0A3E21213FBC00E69919 /* sai2.gif in Resources */,
 				F961CA03208A3F6F00BD9A6F /* Assets.xcassets in Resources */,
+				F90B0A3F21213FBC00E69919 /* sai6.gif in Resources */,
+				F90B0A4021213FBC00E69919 /* sai3.gif in Resources */,
+				F90B0A3D21213FBC00E69919 /* sai4.gif in Resources */,
+				F90B0A3C21213FBC00E69919 /* sai1.gif in Resources */,
+				F90B0A4121213FBC00E69919 /* sai5.gif in Resources */,
 				F961CA01208A3F6900BD9A6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
