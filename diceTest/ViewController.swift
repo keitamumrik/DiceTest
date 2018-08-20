@@ -10,12 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var img1 :UIImage = UIImage(named:"sai1.gif")!
-    var img2 :UIImage = UIImage(named:"sai2.gif")!
-    var img3 :UIImage = UIImage(named:"sai3.gif")!
-    var img4 :UIImage = UIImage(named:"sai4.gif")!
-    var img5 :UIImage = UIImage(named:"sai5.gif")!
-    var img6 :UIImage = UIImage(named:"sai6.gif")!
+    var img1 :UIImage = UIImage(named:"dice/dice01.png")!
+    var img2 :UIImage = UIImage(named:"dice/dice02.png")!
+    var img3 :UIImage = UIImage(named:"dice/dice03.png")!
+    var img4 :UIImage = UIImage(named:"dice/dice04.png")!
+    var img5 :UIImage = UIImage(named:"dice/dice05.png")!
+    var img6 :UIImage = UIImage(named:"dice/dice06.png")!
     
     var imgArray:[UIImage] = []
 //    @IBOutlet weak var diceView: UILabel!
@@ -31,7 +31,8 @@ class ViewController: UIViewController {
         let rundomNum = arc4random_uniform(6)
         let diceNum = Int(rundomNum)
         //diceViewに代入
-//        diceView.text = String(diceNum)
+        //diceView.text = String(diceNum)
+        
         //diceNumに応じて画像を切り替える
         imgArray = [img1,img2,img3,img4,img5,img6]
         diceView.image = imgArray[diceNum]
